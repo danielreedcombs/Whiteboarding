@@ -25,3 +25,28 @@ for(i = 0; i <= str.length; i++){
     if (str[i] != str[i-1])
     {console.log("different!", str[i])}
 }
+
+// counting vowels in a string
+
+let vowelcounter = 0
+let string = "hello my lady"
+
+for (i= 0; i< string.length; i++){
+    if (string[i] == "a" ||string[i] == "e" || string[i] == "i" || string[i] == "o" ||string[i] ==  "u" || string[i] == "y" ) {
+        vowelcounter = vowelcounter + 1
+        console.log(vowelcounter)}
+    else {
+        console.log("no vowels here")
+    }
+}
+
+//  removing duplicates from an array
+
+let duplicate = [1,1,1,2,3,4,5,6,7,8,8,8]
+let noDuplicate= []
+for (i=0; i < duplicate.length; i++){
+    console.log("first loop", duplicate[i])
+    for (i=0; i < duplicate.length; i++){
+        console.log("second loop", duplicate[i])
+    }
+}
