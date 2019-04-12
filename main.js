@@ -50,3 +50,55 @@ for (i=0; i < duplicate.length; i++){
         console.log("second loop", duplicate[i])
     }
 }
+
+let array = [1,2,3,4,5]
+
+array.forEach(num =>{
+    if(num != 3) console.log("chicken",num)
+    else  console.log("monkey", num)
+})
+
+console.log(array)
+
+array.push(6)
+console.log(array)
+
+// calculator +
+let numberAdder = (addNum1,addNum2) =>{
+    console.log("numbers being added", addNum1, "/", addNum2)
+    let newNum = addNum1 + addNum2
+    console.log(newNum)
+}
+
+numberAdder(2,4)
+
+
+//  calculator *
+function numberMultiplier(num1, num2) {
+    newNum = num1* num2
+    console.log(newNum)
+}
+
+// calculator /
+let numberDivider = (num1, num2) => {
+newNum = num1/num2
+console.log(newNum)
+}
+
+numberDivider(10,2)
+
+let garage = ["truck","garbage", "stuff to keep", "alien"]
+
+let garageCleaner = (garage) => {
+    // for (i=0; i< garage.length; i++){
+    //     if(garage[i] === "truck" || garage[i] === "stuff to keep") console.log("dont throw out")
+    //     else if (garage[i] == "garbage") console.log("toss it")
+    //     else console.log("what is this?")
+    // }
+    garage.forEach(item =>{
+        if (item == "truck" || item == "stuff to keep") console.log("dont throw out")
+        else if(item == "garbage") console.log("toss it")
+        else console.log("what is this?")
+    })
+}
+garageCleaner(garage)
