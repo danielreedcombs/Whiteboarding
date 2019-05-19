@@ -102,3 +102,4 @@ let garageCleaner = (garage) => {
     })
 }
 garageCleaner(garage)
+
