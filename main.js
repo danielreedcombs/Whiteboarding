@@ -118,3 +118,20 @@ let spacer = (x) => {
 }
 
 spacer(daniel)
+
+// cutting a middle letter out
+
+let cutter = (x) => {
+    let newword= ""
+    for(i = 0 ; i <= x.length; i ++){
+        if (x.length % i === 0  || x.length % i === .5 ) {
+            console.log(x[i])
+        }
+        else {
+            newword += x[i]
+        }
+    }
+    return newword
+}
+
+cutter(daniel)
