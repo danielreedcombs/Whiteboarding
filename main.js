@@ -135,3 +135,34 @@ let cutter = (x) => {
 }
 
 cutter(daniel)
+
+let listOfStuff = ["tony", "bill", "tiffany", "burt"]
+
+let factcreator = (x) => {
+    x.forEach((i)=> {
+        console.log("person, ", i)
+        console.log("length, ", i.length)
+        console.log("type, ", typeof(i))
+        if (i == "bill") {
+            console.log("likes to party")
+        }
+        else{
+            console.log("does NOT like to party")
+        }
+    })
+}
+
+factcreator(listOfStuff)
+
+
+let names = "daniel"
+let nameflipper = (x) => {
+    let newname
+        for(i = x.length; i>= 0 ; i--) {
+            newname += x[i]
+            console.log(x[i])
+        }
+    console.log(newname)
+}
+
+nameflipper(names)
