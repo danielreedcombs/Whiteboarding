@@ -103,3 +103,18 @@ let garageCleaner = (garage) => {
 }
 garageCleaner(garage)
 
+
+// string manipulator putting a space between each letter
+
+let daniel = "daniel"
+
+let spacer = (x) => {
+    let newstringy = ""
+        for(i =0; i <= x.length; i ++){
+            letterWithSpace = x[i] + " "
+            newstringy += letterWithSpace
+        }
+    return newstringy
+}
+
+spacer(daniel)
