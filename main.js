@@ -166,3 +166,31 @@ let nameflipper = (x) => {
 }
 
 nameflipper(names)
+
+
+let tiltLevelReader = ( person , pointInGame, ranked) => {
+    if(person = Lukas && pointInGame == late){
+        console.log("12/10")
+    }
+    else if (person = "Lukas" && pointInGame == early){
+        console.log("2/10")
+    }
+    else if(person = Lukas && ranked == True && pointInGame == early){
+        console.log("6/10")
+    }
+    else if(person = Lukas && ranked == True && pointInGame == late){
+        console.log("4000000/10 run for your life!")
+    }
+    else if(person = Daniel && ranked == True){
+        console.log("6/10")
+    }
+    else if (person = Daniel && ranked == False){
+        console.log("1/10")
+    }
+    else if(person = Jeremy){
+        console.log("1/10")
+    }
+    else if(person = Mason){
+        console.log("4/10")
+    }
+}
