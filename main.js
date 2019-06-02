@@ -172,7 +172,7 @@ let tiltLevelReader = ( person , pointInGame, ranked) => {
     if(person = Lukas && pointInGame == late){
         console.log("12/10")
     }
-    else if (person = "Lukas" && pointInGame == early){
+    else if (person = Lukas && pointInGame == early){
         console.log("2/10")
     }
     else if(person = Lukas && ranked == True && pointInGame == early){
@@ -194,3 +194,7 @@ let tiltLevelReader = ( person , pointInGame, ranked) => {
         console.log("4/10")
     }
 }
+
+tiltLevelReader( "Lukas" , "early", True)
+
+
